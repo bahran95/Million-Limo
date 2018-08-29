@@ -1,0 +1,15 @@
+.nav-header {
+  min-height: 100px;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.navbar {
+  background-color: #141414;
+}
+
+.nav-item {
+  padding: 0 20px;
+}

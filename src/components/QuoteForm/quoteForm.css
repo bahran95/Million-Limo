@@ -1,0 +1,15 @@
+.form-container {
+  background-color: #141414;
+  color: #fff;
+  width: 400px;
+}
+
+.form-container input {
+  width: 320px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.form-heading {
+  background-color: #dc3545;
+}
