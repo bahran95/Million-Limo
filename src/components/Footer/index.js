@@ -3,7 +3,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <div className="footer">
       <div className="container">
         <div className="row py-5">
           <div className="col-md-6">
@@ -41,7 +41,7 @@ const Footer = () => {
       <p className="text-center pb-4">
         Copyright 2018 Million Limo. All Right Reserved
       </p>
-    </footer>
+    </div>
   );
 };
 

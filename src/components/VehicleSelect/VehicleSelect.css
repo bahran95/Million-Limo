@@ -1,12 +1,11 @@
-.footer {
-  background-color: #141414;
-  color: #fff;
-  margin-bottom: 0;
-}
-
 .color-hr {
   border-color: #dc3545;
   border-width: 4px;
   width: 70px;
   margin-left: 0;
+}
+
+.trip-detail-wrapper {
+  background-color: #141414;
+  color: #fff;
 }

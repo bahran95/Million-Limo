@@ -1,0 +1,12 @@
+.passenager-info {
+  border: 1px solid #acacac;
+  padding: 20px;
+}
+
+.trip-detail-wrapper hr {
+  border-color: #565656;
+}
+
+.color-hr {
+  border-color: #dc3545;
+}

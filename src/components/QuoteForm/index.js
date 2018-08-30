@@ -20,7 +20,7 @@ const QuoteForm = () => {
             <input placeholder="08/29/18" />
           </div>
 
-          <button className="btn btn-danger px-4 py-2 my-3">Reserve Now</button>
+          <button className="btn btn-danger px-4 py-2 my-3">Book Now</button>
         </form>
       </div>
     </div>

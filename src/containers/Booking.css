@@ -1,0 +1,35 @@
+.steps {
+  list-style: none;
+}
+
+.steps li {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: #141414;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+.steps li::before {
+  content: "";
+  position: absolute;
+  top: 0.9em;
+  left: -20em;
+  width: 20em;
+  height: 0.2em;
+  background: #ddd;
+  z-index: -1;
+}
+
+.steps li:first-child::before {
+  display: none;
+}
+
+.steps-detail {
+  list-style: none;
+}
