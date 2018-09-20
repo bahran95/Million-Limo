@@ -2,24 +2,42 @@ import React from "react";
 import Vehicles from "../Vehicles";
 import "./VehicleSelect.css";
 
-const VehicleSelect = () => {
+const VehicleSelect = ({ from, to, date }) => {
+  const cars = [
+    {
+      name: "Chevrolet Suburban",
+      price: "$120",
+      img: "../../images/cadillac_escalade.jpg"
+    },
+    {
+      name: "Cadillac Escalade",
+      price: "$150"
+    },
+    {
+      name: "Lincoln MKT",
+      price: "$90"
+    }
+  ];
+
+  const carList = cars.map((car, i) => {
+    return <Vehicles name={cars[i].name} price={cars[i].price} />;
+  });
+
   return (
     <div className="row my-5">
       <div className="col-md-4 mx-5 pt-3">
         <h2>Select Vehicle</h2>
         <hr className="color-hr" />
-        <Vehicles />
-        <Vehicles />
-        <Vehicles />
+        {carList}
       </div>
       <div className="trip-detail-wrapper col-md-6 pt-3 pb-5 px-4">
         <h2>Trip Details</h2>
         <hr className="color-hr" />
-        <p>From: </p>
+        <p>From: {from} </p>
         <hr />
-        <p>To: </p>
+        <p>To: {to}</p>
         <hr />
-        <p>Distance </p>
+        <p>date: {date} </p>
         <hr />
 
         <div className="row ">

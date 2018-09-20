@@ -44,6 +44,25 @@ const PaymentDetails = () => {
               <div className="passenager-info mt-2">
                 <p>Additional Information:</p>
               </div>
+              <div className="passenager-info-red mt-2">
+                <p>Total Price: $240</p>
+                <div>
+                  <input type="radio" id="paypal" name="payment" checked />
+                  <label className="pl-2" htmlFor="paypal">
+                    Pay with Paypal
+                  </label>
+                </div>
+
+                <div>
+                  <input type="radio" id="cash" name="payment" />
+                  <label className="pl-2" htmlFor="cash">
+                    Pay with Cash
+                  </label>
+                </div>
+                <button className="btn btn-danger mt-4 px-4 py-2">
+                  Proceed To Payment
+                </button>
+              </div>
             </div>
           </div>
         </div>

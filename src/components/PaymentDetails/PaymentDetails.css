@@ -3,8 +3,9 @@
   padding: 20px;
 }
 
-.trip-detail-wrapper hr {
-  border-color: #565656;
+.passenager-info-red {
+  border: 3px solid #dc3545;
+  padding: 20px;
 }
 
 .color-hr {

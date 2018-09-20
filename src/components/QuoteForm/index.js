@@ -1,26 +1,33 @@
 import React from "react";
 import "./quoteForm.css";
 
-const QuoteForm = () => {
+const QuoteForm = ({ handleChange, bookNow }) => {
   return (
-    <div className="container mt-5 text-center">
-      <div className="form-container">
-        <div className="form-heading pt-2">
-          <h3>Get Quote</h3>
-          <hr />
-        </div>
+    <div className="container py-5 text-center">
+      <div className="form-container py-4 mt-5 mb-4">
         <form>
           <div>
-            <input placeholder="Pick Up Address" />
+            <input
+              name="from"
+              placeholder="Pick Up Address"
+              onChange={handleChange}
+            />
           </div>
           <div>
-            <input placeholder="Drop Off Address" />
+            <input
+              name="to"
+              placeholder="Drop Off Address"
+              onChange={handleChange}
+            />
           </div>
           <div>
-            <input placeholder="08/29/18" />
+            <input name="date" placeholder="mm/dd/yy" onChange={handleChange} />
           </div>
 
-          <button className="btn btn-danger px-4 py-2 my-3">Book Now</button>
+          <button className="btn btn-danger px-4 py-2 my-3" onClick={bookNow}>
+            Book Now
+            <i class="fas fa-angle-right ml-2" />
+          </button>
         </form>
       </div>
     </div>

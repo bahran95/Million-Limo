@@ -1,17 +1,32 @@
 import React, { Component } from "react";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
 import QuoteForm from "../components/QuoteForm";
-import TripDetails from "../components/TripDetails";
 import VehicleSelect from "../components/VehicleSelect";
 import PaymentDetails from "../components/PaymentDetails";
 import "./Booking.css";
 
 class Booking extends Component {
+  constructor() {
+    super();
+    this.state = {
+      from: "",
+      to: "",
+      date: ""
+    };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(e) {
+    this.setState({ [e.target.name]: e.target.value });
+  }
+
+  bookNow(e) {
+    e.preventDefault();
+    console.log("click");
+  }
+
   render() {
     return (
       <div>
-        <Navigation />
         <div className="container text-center py-5">
           <h1>Booking</h1>
         </div>
@@ -28,9 +43,14 @@ class Booking extends Component {
             <li>Enter Payment Details</li>
             <li>Confirmation</li>
           </ul>
+          <QuoteForm handleChange={this.handleChange} bookNow={this.bookNow} />
+          <VehicleSelect
+            from={this.state.from}
+            to={this.state.to}
+            date={this.state.date}
+          />
           <PaymentDetails />
         </div>
-        <Footer />
       </div>
     );
   }
