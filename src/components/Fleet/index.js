@@ -16,10 +16,13 @@ class Fleet extends Component {
                 <div className="card-body text-left">
                   <h5 className="card-title">BMW Grand Sedan</h5>
                   <p className="card-text">
-                    <li>4 Passangers</li>
-                    <li>2 Bags</li>
+                    <li>
+                      <i className="text-black-50 fas fa-male mr-3" />
+                       4 Passangers
+                    </li>
+                    <li><i className="text-black-50 fas fa-suitcase mr-2"></i>2 Bags</li>
                   </p>
-                  <a href="" className="btn btn-danger">
+                  <a href="" className="btn btn-danger px-4">
                     From $110
                   </a>
                 </div>
@@ -31,10 +34,13 @@ class Fleet extends Component {
                 <div className="card-body text-left">
                   <h5 className="card-title">BMW Grand Sedan</h5>
                   <p className="card-text">
-                    <li>4 Passangers</li>
-                    <li>2 Bags</li>
+                    <li>
+                      <i className="text-black-50 fas fa-male mr-3" />
+                       4 Passangers
+                    </li>
+                    <li><i className="text-black-50 fas fa-suitcase mr-2"></i>2 Bags</li>
                   </p>
-                  <a href="" className="btn btn-danger">
+                  <a href="" className="btn btn-danger px-4">
                     From $110
                   </a>
                 </div>
@@ -46,10 +52,13 @@ class Fleet extends Component {
                 <div className="card-body text-left">
                   <h5 className="card-title">BMW Grand Sedan</h5>
                   <p className="card-text">
-                    <li>4 Passangers</li>
-                    <li>2 Bags</li>
+                    <li>
+                      <i className="text-black-50 fas fa-male mr-3" />
+                       4 Passangers
+                    </li>
+                    <li><i className="text-black-50 fas fa-suitcase mr-2"></i>2 Bags</li>
                   </p>
-                  <a href="" className="btn btn-danger">
+                  <a href="" className="btn btn-danger px-4">
                     From $110
                   </a>
                 </div>
@@ -61,10 +70,13 @@ class Fleet extends Component {
                 <div className="card-body text-left">
                   <h5 className="card-title">BMW Grand Sedan</h5>
                   <p className="card-text">
-                    <li>4 Passangers</li>
-                    <li>2 Bags</li>
+                    <li>
+                      <i className="text-black-50 fas fa-male mr-3" />
+                       4 Passangers
+                    </li>
+                    <li><i className="text-black-50 fas fa-suitcase mr-2"></i>2 Bags</li>
                   </p>
-                  <a href="" className="btn btn-danger">
+                  <a href="" className="btn btn-danger px-4">
                     From $110
                   </a>
                 </div>
