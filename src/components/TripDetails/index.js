@@ -68,7 +68,7 @@ class TripDetails extends Component {
           <div className="col-md-6 pr-0">
             <MapContainer
               isMarkerShown
-              googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+              googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtn7-nUWQnm4bAPEwvlkk8KBwjNZnt4o8&v=3.exp&libraries=geometry,drawing,places"
               loadingElement={<div style={{ height: `100%` }} />}
               containerElement={<div style={{ height: `100%` }} />}
               mapElement={<div style={{ height: `100%` }} />}
