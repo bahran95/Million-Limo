@@ -1,11 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Logo from "../../images/ML-Logo.png";
 import "./navigation.css";
 
 const Navigation = () => {
   return (
     <div className="container">
-      <div className="nav-header d-flex align-items-center justify-content-end">
+      <div className="d-flex align-items-center justify-content-end">
+        <div className="nav-header">
+          <img
+            className="my-4"
+            src={Logo}
+            alt="million limo logo"
+            height={100}
+          />
+        </div>
         <NavLink to="/booking">
           <button className="btn btn-danger px-4 py-2">
             {" "}
@@ -14,6 +23,7 @@ const Navigation = () => {
           </button>
         </NavLink>
       </div>
+
       <nav className="navbar navbar-expand-lg navbar-dark">
         <button
           className="navbar-toggler"

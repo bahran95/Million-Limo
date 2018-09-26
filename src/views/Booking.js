@@ -3,7 +3,6 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import QuoteForm from "../components/QuoteForm";
 import TripDetails from "../components/TripDetails";
-import VehicleSelect from "../components/VehicleSelect";
 import PaymentDetails from "../components/PaymentDetails";
 import "./Booking.css";
 
